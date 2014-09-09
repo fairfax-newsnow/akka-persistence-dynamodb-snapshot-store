@@ -1,0 +1,31 @@
+# SBT
+**/target/
+
+# IntelliJ IDEA
+/.idea/tasks.xml
+/.idea/workspace.xml
+/.idea/dictionaries/
+
+# sbt-idea
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/sbt.xml
+/.idea/libraries/SBT__*.xml
+/.idea/modules/*.iml
+/.idea_modules/
+.history
+
+# MacOS
+.DS_Store
+
+.idea/*
+**/.cache
+**/.classpath
+**/.project
+**/.settings/*
+**/bin
+**/logs/*
+
+COPYING
+LICENSE
+activator**
