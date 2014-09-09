@@ -1,6 +1,6 @@
 organization := "com.fairfax"
 
-name := "akka-snapshotstore-dynamodb"
+name := "akka-persistence-dynamodb-snapshot-store"
 
 version := "0.3.4"
 
