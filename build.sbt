@@ -2,7 +2,7 @@ organization := "com.fairfax"
 
 name := "akka-snapshotstore-dynamodb"
 
-version := "0.3.4-SNAPSHOT"
+version := "0.3.4"
 
 scalaVersion := "2.11.1"
 
