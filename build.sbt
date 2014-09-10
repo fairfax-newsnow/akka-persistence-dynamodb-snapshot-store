@@ -21,4 +21,8 @@ libraryDependencies ++= Seq(
   "commons-io"             %  "commons-io"                        % "2.4"     % "test"
 )
 
-val root = Project("akka-persistence-dynamodb-snapshot-store", file(".")).settings(Defaults.itSettings:_*)
+val commonSettings = net.virtualvoid.sbt.graph.Plugin.graphSettings
+
+val root = Project("akka-persistence-dynamodb-snapshot-store", file("."))
+  .settings(commonSettings:_*)
+  .settings(Defaults.itSettings:_*)
