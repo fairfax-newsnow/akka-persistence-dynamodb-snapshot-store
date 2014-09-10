@@ -21,4 +21,4 @@ libraryDependencies ++= Seq(
   "commons-io"             %  "commons-io"                        % "2.4"     % "test"
 )
 
-val root = Project("akka-snapshotstore-dynamodb", file(".")).settings(Defaults.itSettings:_*)
+val root = Project("akka-persistence-dynamodb-snapshot-store", file(".")).settings(Defaults.itSettings:_*)
