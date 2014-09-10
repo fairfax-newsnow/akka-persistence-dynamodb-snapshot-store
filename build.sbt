@@ -12,6 +12,8 @@ parallelExecution in Test := false
 
 //resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
 
+publishTo := Some("Fairfax snapshots" at "s3://snapshots.mvn-repo.fairfax.com")
+
 libraryDependencies ++= Seq(
   "com.typesafe.akka"      %% "akka-persistence-experimental"     % "2.3.4"   % "compile",
   "com.sclasen"            %% "spray-dynamodb"                    % "0.3.2"   % "compile",
