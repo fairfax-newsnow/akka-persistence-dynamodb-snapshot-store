@@ -10,7 +10,9 @@ crossScalaVersions := Seq("2.11.1", "2.10.4")
 
 parallelExecution in Test := false
 
-//resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
+resolvers += "spray repo" at "http://repo.spray.io"
+
+resolvers += "krasserm at bintray" at "http://dl.bintray.com/krasserm/maven"
 
 publishTo := Some("Fairfax snapshots" at "s3://snapshots.mvn-repo.fairfax.com")
 

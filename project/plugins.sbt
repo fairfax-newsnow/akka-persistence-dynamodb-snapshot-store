@@ -1,10 +1,6 @@
 resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/"
 
-resolvers += "spray repo" at "http://repo.spray.io"
-
 resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
-
-resolvers += "krasserm at bintray" at "http://dl.bintray.com/krasserm/maven"
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-scalariform" % "1.2.1")
 
