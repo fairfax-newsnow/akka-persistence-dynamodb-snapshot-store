@@ -14,7 +14,7 @@ resolvers += "spray repo" at "http://repo.spray.io"
 
 resolvers += "krasserm at bintray" at "http://dl.bintray.com/krasserm/maven"
 
-publishTo := Some("Fairfax snapshots" at "s3://snapshots.mvn-repo.fairfax.com")
+publishTo := Some("Fairfax snapshots" at "s3://ffx-newsnow-deploy-resources/public/maven")
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka"      %% "akka-persistence-experimental"     % "2.3.4"   % "compile",
